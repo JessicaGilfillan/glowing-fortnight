@@ -1,0 +1,171 @@
+/* Typography */
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+    background-image: url(../images/roberto-nickson-NAVi0Eyia8w-unsplash.jpg);
+
+}
+
+h1,
+h2 {
+    font-weight: 800;
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+    font-weight: 600;
+    background-color: black;
+}
+
+ol,
+ul,
+li {
+    background-color: black;
+    color: blue;
+}
+
+
+
+p {
+    font-weight: 300;
+    line-height: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    background-color: #fff;
+    font-weight: 800;
+}
+a{
+    color: blue;
+    text-decoration: bold;
+    background-color:black;
+}
+footer>p {
+    color: blue;
+    background-color: black;
+    
+}
+
+/* Layout */
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    gap: 32px;
+}
+
+#features>div {
+    flex: 1;
+}
+
+#features>div>h3 {
+    color: blue;
+    background-color: black;
+    text-align: center;
+}
+
+#features>ul>li {
+    color: #576574;
+}
+
+img {
+    max-height: 600px;
+    width: auto;
+    border: solid black 1px;
+}
+
+main section {
+    padding: 60px 20px 0 20px;
+}
+
+/*table layout*/
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid;
+    
+    
+}
+
+thead th:nth-child(1) {
+
+    width: 40%;
+
+}
+
+thead th:nth-child(2) {
+
+    width: 20%;
+
+}
+
+thead th:nth-child(3) {
+
+    width: 40%;
+
+}
+
+/*zebra shape pattern on both html tables*/
+
+tbody tr:nth-child(odd) {
+    background-color: #576574;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+/*nav menu*/
+nav {
+    display: flex;
+    flex: 1;
+    gap: 100px;
+    flex-direction: row;
+    padding: 5em;
+    text-align: center;
+
+}
+
+nav a {
+    background-color: black;
+    padding: 4px;
+}
+
+nav a:link {
+    background-color: yellow;
+    color: blue;
+}
+
+nav a:visited {
+    background-color: yellow;
+    color: blue;
+
+}
+
+
+nav a:focus {
+    background-color: black;
+    color: blue;
+}
+
+nav a:hover {
+    background-color: white;
+    color: blue
+}
+
+a:active {
+    background-color: red;
+    color: #fff;
+
+}
+/*list*/
+li{
+    list-style-type: square;
+    
+    list-style: inside;
+}

@@ -1,0 +1,131 @@
+
+/* Typography */ 
+
+html {
+    font-family: 'Fira Sans', sans-serif; 
+    background-image: url(../image/dilip-poddar-add9wq8DslE-unsplash.jpg);
+}
+
+h1, h2, h3 {
+    font-weight: 600; 
+    background-color: black;
+    color: blue;
+    text-decoration: underline;
+    border: solid 2px blue;
+}
+
+p {
+    font-weight: 300; 
+    line-height: 18px;
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 1em;
+    font-weight: bolder;
+    
+}
+a{
+    color: blue;
+    text-decoration: bold;
+    background-color:black;
+}
+
+
+/* Layout */ 
+
+.wrapper {
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.flex {
+    display:flex;
+    gap: 32px;  
+}
+
+#features > div {
+    flex: 1; 
+    background-color: black;
+    color: blue;
+}
+
+img {
+    max-height: 300px; 
+    width: auto; 
+    
+}
+
+main section {
+    padding: 60px 20px 0 20px; 
+}
+/*table*/
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid;
+    
+
+    
+   }
+/*zebra shape pattern on both html tables*/
+tbody tr:nth-child(odd){
+    background-color: #576574;
+}
+tbody tr:nth-child(even){
+    background-color:#fff;
+}
+
+/*nav menu*/
+nav {
+    display: flex;
+    flex: 1;
+    gap: 100px;
+    flex-direction:row;
+    padding: 6em;
+    text-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+    
+
+}
+
+nav a {
+    background-color: black;
+    padding: 4px;
+}
+
+nav a:link {
+    background-color: yellow;
+    color: blue;
+}
+
+nav a:visited {
+    background-color: yellow;
+    color: blue;
+
+}
+
+
+nav a:focus {
+    background-color: black;
+    color: blue;
+}
+
+nav a:hover {
+    background-color: white;
+    color: blue
+}
+
+a:active {
+    background-color: red;
+    color: #fff;
+}
+/*list*/
+ol{
+    list-style-type: circle;
+}
+li{
+    list-style: square;
+    line-height: 18px;
+}
